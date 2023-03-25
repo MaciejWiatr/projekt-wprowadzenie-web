@@ -1,0 +1,82 @@
+:root {
+  /* shades of gray color palette */
+  --color-gray-100: #f7fafc;
+  --color-gray-200: #edf2f7;
+  --color-gray-300: #e2e8f0;
+  --color-gray-400: #cbd5e0;
+  --color-gray-500: #a0aec0;
+  --color-gray-600: #718096;
+  --color-gray-700: #4a5568;
+  --color-gray-800: #2d3748;
+  --color-gray-900: #1a202c;
+  /* Accent colors light green */
+  --color-accent-100: #f0fff4;
+  --color-accent-200: #c6f6d5;
+  --color-accent-300: #9ae6b4;
+  --color-accent-400: #68d391;
+  --color-accent-500: #48bb78;
+  --color-accent-600: #38a169;
+  --color-accent-700: #2f855a;
+  /* Accent colors blue */
+  --color-accent-blue-100: #ebf8ff;
+  --color-accent-blue-200: #bee3f8;
+  --color-accent-blue-300: #90cdf4;
+  --color-accent-blue-400: #63b3ed;
+  --color-accent-blue-500: #4299e1;
+  --color-accent-blue-600: #3182ce;
+  --color-accent-blue-700: #2b6cb0;
+  /* Smooth light shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  /* Font weights */
+  --font-light: 300;
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  /* Margins m */
+  --m-sm: 0.5rem;
+  --m: 1rem;
+  --m-md: 1.5rem;
+  --m-lg: 2rem;
+  --m-xl: 3rem;
+  /* Padding p */
+  --p-sm: 0.5rem;
+  --p: 1rem;
+  --p-md: 1.5rem;
+  --p-lg: 2rem;
+  --p-xl: 3rem;
+  /* Font sizes */
+  --font-xs: 0.75rem;
+  --font-sm: 0.875rem;
+  --font-base: 1rem;
+  --font-lg: 1.125rem;
+  --font-xl: 1.25rem;
+  --font-2xl: 1.5rem;
+  --font-3xl: 1.875rem;
+  --font-4xl: 2.25rem;
+  /* Border radiuses */
+  --round-xs: 0.125rem;
+  --round-sm: 0.25rem;
+  --round: 0.5rem;
+  --round-md: 0.75rem;
+  --round-lg: 1rem;
+  --round-xl: 1.5rem;
+  --round-2xl: 2rem;
+  /* Utils */
+  --full: 100%;
+
+  /* Screen sizes */
+  --screen-xs: 320px;
+  --screen-sm: 640px;
+  --screen-md: 768px;
+  --screen-lg: 1024px;
+  --screen-xl: 1280px;
+}

@@ -1,0 +1,120 @@
+body {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--color-gray-900);
+  -webkit-font-smoothing: antialiased;
+}
+
+.navigation-header-button {
+  display: none;
+}
+
+.navigation-header {
+  display: flex;
+  align-items: center;
+  box-shadow: var(--shadow-md);
+  margin: var(--m-sm);
+  border-radius: var(--round-md);
+  border: 1px solid var(--color-gray-200);
+  padding: var(--p-sm) var(--p);
+}
+
+.navigation-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  transition: height 0.25s ease;
+}
+
+.navigation-header-branding {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .navigation-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navigation-header-branding {
+    width: 100%;
+  }
+
+  .navigation-header-button {
+    display: block;
+    color: var(--color-gray-800);
+    width: 40px;
+    height: 40px;
+    margin: var(--m-sm);
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .navigation-links {
+    overflow: hidden;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 0px;
+  }
+
+  .navigation-links--active {
+    height: 115px;
+  }
+
+  .navigation-link {
+    opacity: 0;
+  }
+
+  .navigation-link--active {
+    opacity: 1;
+  }
+}
+
+.navigation-link-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: var(--p-sm) var(--p-md);
+}
+
+.navigation-link-wrapper:hover {
+  background-color: var(--color-accent-100);
+  color: var(--color-accent-700);
+  border-radius: var(--round-md);
+}
+
+.navigation-link {
+  text-decoration: none;
+  color: var(--color-gray-700);
+  font-size: var(--font-sm);
+  font-weight: var(--font-normal);
+  border-radius: var(--round-md);
+  color: inherit;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  transition: opacity 0.25s ease;
+}
+
+.navigation-link--icon {
+  margin-right: var(--m-sm);
+  width: 20px;
+  height: 20px;
+  color: inherit;
+}
+
+.navigation-header-photo {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
