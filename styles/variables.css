@@ -17,24 +17,39 @@
   --color-accent-500: #48bb78;
   --color-accent-600: #38a169;
   --color-accent-700: #2f855a;
+  /* Slate */
+  --slate-50: #f8fafc;
+  --slate-100: #f1f5f9;
+  --slate-200: #e2e8f0;
+  --slate-300: #cbd5e1;
+  --slate-400: #94a3b8;
+  --slate-500: #64748b;
+  --slate-600: #475569;
+  --slate-700: #334155;
+  --slate-800: #1e293b;
+  --slate-900: #0f172a;
   /* Accent colors blue */
-  --color-accent-blue-100: #ebf8ff;
-  --color-accent-blue-200: #bee3f8;
-  --color-accent-blue-300: #90cdf4;
-  --color-accent-blue-400: #63b3ed;
-  --color-accent-blue-500: #4299e1;
-  --color-accent-blue-600: #3182ce;
-  --color-accent-blue-700: #2b6cb0;
+  --blue-50: #eef2ff;
+  --blue-100: #e0e7ff;
+  --blue-200: #c7d2fe;
+  --blue-300: #a5b4fc;
+  --blue-400: #818cf8;
+  --blue-500: #6366f1;
+  --blue-600: #4f46e5;
+  --blue-700: #4338ca;
+  --blue-800: #3730a3;
+  --blue-900: #312e81;
   /* Smooth light shadows */
-  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-    0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-    0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
-    0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  --shadow-sm: 0 1px 2px 0 rgba(67, 76, 94, 0.05);
+  --shadow: 0 1px 3px 0 rgba(67, 76, 94, 0.1),
+    0 1px 2px 0 rgba(67, 76, 94, 0.06);
+  --shadow-md: 0 4px 6px -1px rgba(67, 76, 94, 0.1),
+    0 2px 4px -1px rgba(67, 76, 94, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(67, 76, 94, 0.1),
+    0 4px 6px -2px rgba(67, 76, 94, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(67, 76, 94, 0.1),
+    0 10px 10px -5px rgba(67, 76, 94, 0.04);
+  --shadow-2xl: 0 25px 50px -12px rgba(67, 76, 94, 0.25);
   /* Font weights */
   --font-light: 300;
   --font-normal: 400;
@@ -70,6 +85,7 @@
   --round-lg: 1rem;
   --round-xl: 1.5rem;
   --round-2xl: 2rem;
+  --round-full: 9999px;
   /* Utils */
   --full: 100%;
 

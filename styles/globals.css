@@ -1,9 +1,14 @@
-body {
-  box-sizing: border-box;
+* {
   font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: var(--color-gray-900);
+  background-color: var(--slate-100);
+  color: var(--slate-800);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -12,12 +17,11 @@ body {
 }
 
 .navigation-header {
+  background-color: var(--color-gray-900);
+  color: white;
   display: flex;
   align-items: center;
-  box-shadow: var(--shadow-md);
-  margin: var(--m-sm);
-  border-radius: var(--round-md);
-  border: 1px solid var(--color-gray-200);
+  box-shadow: var(--shadow-lg);
   padding: var(--p-sm) var(--p);
 }
 
@@ -36,6 +40,46 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.navigation-link-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: var(--p-sm) var(--p-md);
+  transition: all 0.25s ease;
+}
+
+.navigation-link-wrapper:hover {
+  background-color: rgba(47, 133, 90, 0.2);
+  color: var(--color-accent-700);
+  border-radius: var(--round-md);
+}
+
+.navigation-link {
+  text-decoration: none;
+  color: var(--color-gray-700);
+  font-size: var(--font-sm);
+  font-weight: var(--font-light);
+  border-radius: var(--round-md);
+  color: inherit;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  transition: opacity 0.25s ease;
+}
+
+.navigation-link--icon {
+  margin-right: var(--m-sm);
+  width: 20px;
+  height: 20px;
+  color: var(--color-accent-600);
+}
+
+.navigation-header-photo {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
 }
 
 @media screen and (max-width: 600px) {
@@ -78,43 +122,4 @@ body {
   .navigation-link--active {
     opacity: 1;
   }
-}
-
-.navigation-link-wrapper {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  padding: var(--p-sm) var(--p-md);
-}
-
-.navigation-link-wrapper:hover {
-  background-color: var(--color-accent-100);
-  color: var(--color-accent-700);
-  border-radius: var(--round-md);
-}
-
-.navigation-link {
-  text-decoration: none;
-  color: var(--color-gray-700);
-  font-size: var(--font-sm);
-  font-weight: var(--font-normal);
-  border-radius: var(--round-md);
-  color: inherit;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  transition: opacity 0.25s ease;
-}
-
-.navigation-link--icon {
-  margin-right: var(--m-sm);
-  width: 20px;
-  height: 20px;
-  color: inherit;
-}
-
-.navigation-header-photo {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
 }
