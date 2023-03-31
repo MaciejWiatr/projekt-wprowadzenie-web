@@ -39,6 +39,11 @@
   --blue-700: #4338ca;
   --blue-800: #3730a3;
   --blue-900: #312e81;
+  /* Red colors */
+  --red-200: #fed7d7;
+  --red-500: #f56565;
+  --red-600: #e53e3e;
+  --red-700: #c53030;
   /* Smooth light shadows */
   --shadow-sm: 0 1px 2px 0 rgba(67, 76, 94, 0.05);
   --shadow: 0 1px 3px 0 rgba(67, 76, 94, 0.1),

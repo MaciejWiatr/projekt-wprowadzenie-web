@@ -1,0 +1,56 @@
+.grades-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: var(--round-md);
+  box-shadow: var(--shadow-sm);
+  padding: var(--p-md);
+  background-color: var(--color-gray-100);
+}
+
+.grades-table-header > tr {
+  border-bottom: 2px solid var(--color-gray-200);
+}
+
+.grades-table-header > tr > td {
+  padding: var(--p);
+  color: var(--color-gray-900);
+  font-weight: 600;
+  font-size: var(--font-sm);
+  min-width: max-content;
+}
+
+.grades-table-row:nth-of-type(odd) {
+  background-color: var(--blue-50);
+}
+
+.grades-table-cell {
+  padding: var(--p);
+  color: var(--color-gray-800);
+  font-size: var(--font-sm);
+  vertical-align: middle;
+}
+
+.grades-table-button {
+  background-color: var(--blue-100);
+  color: var(--blue-700);
+  font-weight: 500;
+  border: none;
+  border-radius: var(--round);
+  padding: var(--p-sm) var(--p-md);
+  font-size: var(--font-xs);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: var(--p-sm);
+}
+
+.grades-table-button > svg {
+  width: 18px;
+  height: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .grades-table-wrapper {
+    overflow-x: scroll;
+  }
+}
