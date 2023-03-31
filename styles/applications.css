@@ -90,6 +90,15 @@
   background-color: var(--blue-600);
   transition: all 0.25s ease;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-application-form--button > svg {
+  margin-left: var(--m-sm);
+  width: 20px;
+  height: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -113,7 +122,7 @@
   justify-content: center;
   align-items: center;
   gap: var(--m-sm);
-  padding: var(--p-md) 0;
+  padding: 0 var(--p-md);
 }
 
 .invalid-result {

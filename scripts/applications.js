@@ -13,7 +13,6 @@ const applicationsTableBody = document.querySelector(
 );
 
 const invalidResultContainer = document.querySelector(".invalid-result");
-const validResultContainer = document.querySelector(".valid-result");
 
 const renderApplications = () => {
   /** @type {Application[]} */
