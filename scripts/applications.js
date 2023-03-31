@@ -70,7 +70,6 @@ const saveApplication = (application) => {
 
 const clearValidation = () => {
   invalidResultContainer.innerText = "";
-  validResultContainer.innerText = "";
 };
 
 /**
