@@ -7,6 +7,13 @@
   padding-right: var(--p-lg);
 }
 
+@media screen and (max-width: 768px) {
+  .timeline {
+    padding-left: var(--p-sm);
+    padding-right: var(--p-sm);
+  }
+}
+
 .timeline-item::before {
   content: "";
   position: absolute;
